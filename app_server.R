@@ -5,6 +5,8 @@ library(leaflet)
 library(tigris)
 require(EpiModel)
 
+#Source: https://www.statista.com/chart/21882/chance-of-covid-19-transmission/ 
+
 server <- function(input, output) {
 
   output$d_mod <- renderPlot({
